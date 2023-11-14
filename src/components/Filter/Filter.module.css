@@ -1,0 +1,10 @@
+.title {
+    font-weight: 600;
+
+    margin-bottom: 5px;
+}
+
+.input {
+    width: 290px;
+    padding: 3px;
+}

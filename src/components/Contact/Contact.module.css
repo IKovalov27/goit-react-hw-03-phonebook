@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 15px;
+}
+
+.icon_svg {
+    width: 15px;
+    height: 15px;
+}
+
+.name {
+    font-weight: 600;
+    margin: 0 5px 0 0;
+}
+
+.number {
+    margin: 0;
+}
+
+.button {
+    background-color: transparent;
+    padding: 3px 15px;
+
+    border: 1px solid black;
+    border-radius: 5px;
+
+    margin-left: auto;
+}
+
+.button_icon {
+    display: flex;
+}

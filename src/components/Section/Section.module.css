@@ -1,0 +1,10 @@
+.section:first-child {
+    margin-bottom: 30px;
+}
+
+.title {
+    margin-top: 0;
+    margin-bottom: 20px;
+
+    font-size: 30px;
+}
