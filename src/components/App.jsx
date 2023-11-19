@@ -30,14 +30,11 @@ export class App extends Component {
     }
   };
 
-  componentDidUpdate = prevState => {
+  componentDidUpdate(prevState) {
     if (prevState.contacts !== this.state.contacts) {
-      localStorage.setItem(
-        'contact-list',
-        JSON.stringify(this.state.contacts)
-      );
+      localStorage.setItem('contact-list', JSON.stringify(this.state.contacts));
     }
-  };
+  }
 
   isNameHas = name => {
     return this.state.contacts.some(contact => contact.name === name);
